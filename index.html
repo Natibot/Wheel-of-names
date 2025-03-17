@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheel of Names</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Wheel of Names</h1>
+    <div id="wheelContainer">
+        <div id="arrow">▼</div>
+        <canvas id="wheelCanvas" width="400" height="400"></canvas>
+    </div>
+    <br>
+    <input type="text" id="nameInput" placeholder="Enter name">
+    <button onclick="addName()">Add Name</button>
+    <ul id="nameList"></ul>
+    <button onclick="spinWheel()">Spin</button>
+    <p id="winner"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
